@@ -1,3 +1,6 @@
+body{
+    background: #ceeeff;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -21,3 +24,18 @@ nav{
     height: 100%;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(205deg) brightness(102%) contrast(103%);
 }
+
+.linija {
+    width: 100%;
+    height: 3vh;
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        #FBAF00,
+        #FBAF00 4vh,
+        #FFD639 4vh,
+        #FFD639 8vh,
+        #00AF54 8vh,
+        #00AF54 12vh
+      );
+  }
